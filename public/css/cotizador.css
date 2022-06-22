@@ -1,0 +1,95 @@
+@import url(../css/style.css);
+
+.col-cot {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 35px 45px;
+  box-shadow: 0px 16px 1px 1px #d5d5d5b3;
+}
+.title-cot {
+  font-family: "SansationBold";
+  color: #05101b;
+  font-size: 2.5rem;
+}
+
+.item-nav-cot {
+  border-bottom: 3px solid #a9a9a92e;
+}
+
+.item-nav-cot-a {
+  border-bottom: 3px solid #183faa;
+  color: #05101b;
+  background: #7e7e7e05;
+}
+
+.cont-car {
+  background: #264fc224;
+  border-radius: 20px;
+}
+
+.btn-sigui-cot {
+  background: #153993;
+  border-radius: 50%;
+  padding: 15px 20px;
+  color: white;
+}
+.btn-sigui-cot:hover {
+  background: #153993;
+  border-radius: 50%;
+  padding: 15px 20px;
+  color: white;
+}
+
+/* selectpaso1  */
+
+.select-flota {
+  border: 0px;
+  color: #05101b;
+}
+.select-flota:focus {
+  border: 0px;
+  color: #05101b;
+  box-shadow: 0 0 0 0.25rem #12147e0b;
+}
+
+.cotiza {
+  margin-top: -20%;
+  margin-bottom: 10%;
+}
+
+.subtitle-smtcot {
+  font-family: "RobotoBold";
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-bottom: 3%;
+}
+
+.title-smtcot {
+  font-family: "SansationBold";
+  font-size: 3rem;
+  color: white;
+}
+
+/* COTIZADOR VISTAS */
+
+.cotizador-check {
+  margin-top: 5%;
+  background-image: url(../img/background-green.svg);
+  background-color: #cccccc;
+  height: 350px;
+  padding: 30px 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cotizador-check2 {
+  margin-top: -20%;
+  margin-bottom: 5%;
+}
+
+.detalles-cot {
+  font-size: 12px;
+  color: #6b6b6bad;
+  font-weight: 100;
+}

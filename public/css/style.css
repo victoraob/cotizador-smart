@@ -1,0 +1,2491 @@
+@font-face {
+  font-family: DsignesBold;
+  src: url(../fonts/DsignesBold.ttf);
+}
+
+@font-face {
+  font-family: DsignesRegular;
+  src: url(../fonts/DsignesRegular.ttf);
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: RobotoMedium;
+  src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: RobotoRegular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoLight;
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: SansationBold;
+  src: url(../fonts/Sansation_Bold.ttf);
+}
+
+@font-face {
+  font-family: SansationRegular;
+  src: url(../fonts/Sansation_Regular.ttf);
+}
+
+.color-aqua {
+  color: #5bc9a4 !important;
+}
+
+.color-dblue {
+  color: #0c1f33 !important;
+}
+
+.color-bluee {
+  color: #264fc2 !important;
+}
+
+body {
+  font-family: "RobotoMedium" !important;
+  background-color: #e3e8f2;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  /* STYLES NAVBAR AND BANNER */
+
+  .bg-nav-smt {
+    background-image: radial-gradient(circle, #1f4ac7, #1f4ac7);
+    height: 300px;
+  }
+
+  .video-desktop {
+    width: 100%;
+    margin-top: -18px;
+  }
+
+  .logo-nav-smt {
+    width: 150px;
+    margin-left: -10px;
+  }
+
+  .item-available {
+    text-shadow: 0px 0px 2px white;
+    color: white;
+    display: none;
+  }
+  .item-available:hover {
+    text-shadow: 0px 0px 2px white;
+    color: white;
+  }
+
+  .btn-down-smt {
+    font-family: "DsignesBold";
+    padding: 14px 20px;
+    font-size: 14px;
+    background-color: #5bc9a4 !important;
+    color: #262626;
+    box-shadow: 0px 0px 4px 0px white;
+    transition: all 0.5s;
+    display: none;
+  }
+  .btn-down-smt:hover {
+    font-family: "DsignesBold";
+    padding: 14px 20px;
+    font-size: 14px;
+    background-color: #49d4a6 !important;
+    color: #424242;
+    box-shadow: 0px 0px 4px 0px white;
+    transition: all 0.5s;
+    display: none;
+  }
+
+  .bar-smt {
+    color: white;
+    font-size: 25px;
+  }
+
+  .subtitle-smt {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+
+  .title-smt {
+    font-family: "SansationRegular";
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .text-smth {
+    font-size: 14px;
+  }
+
+  .content-phones-smt {
+    margin-top: -25%;
+  }
+
+  /* SECTION GRADIENT */
+  .section-gradient-smt {
+    margin-top: 5%;
+    background-image: url(../img/background-green.svg);
+    background-color: #cccccc;
+    /* height: 700px; */
+    padding: 30px 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title-sg-smt {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  .btn-down2-smt {
+    font-family: "DsignesBold";
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: #0c1f33 !important;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #0c1f33;
+    transition: all 0.5s;
+  }
+  .btn-down2-smt:hover {
+    font-family: "DsignesBold";
+    padding: 5px 20px;
+    font-size: 12px;
+    background-color: #122d49 !important;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #0c1f33;
+    transition: all 0.5s;
+  }
+
+  /* SECTION TRUCLOGIC */
+  .section-trucs-smt {
+    margin-top: -5px;
+    background-color: #0c1f33;
+    height: 400px;
+  }
+
+  .title-clients-smt {
+    font-family: "SansationBold";
+    margin-top: 15%;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .col-client-smt {
+    border-radius: 35px;
+    background-color: #49d4a6;
+    padding: 10% 0px;
+    height: 450px;
+  }
+  .title-col-smt {
+    font-family: "SansationBold";
+    font-size: 2rem;
+  }
+
+  .card-img-tops {
+    width: 60%;
+  }
+  .text-reviewclient {
+    font-size: 10px;
+    text-align: center;
+  }
+  .card-client-smt {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 11px 4px #00000030;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+  }
+  .stars-review {
+    color: #c4a817;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: -5px;
+  }
+
+  .sms-client {
+    margin-top: -60%;
+  }
+
+  .clients-top {
+    margin-top: -15%;
+  }
+
+  /* NOTICIAS ULTIMAS */
+
+  .title-not-smt {
+    font-family: "SansationBold";
+    margin-top: 10%;
+    font-size: 2rem;
+  }
+
+  .date-note {
+    color: #b4b4b4e0;
+    font-size: 7px;
+  }
+
+  .title-inot {
+    font-family: "RobotoBold";
+    color: #0c1f33;
+    font-size: 12px;
+  }
+
+  .text-inot {
+    font-size: 10px;
+  }
+
+  .cb-inot {
+    height: 150px;
+  }
+
+  .card-not {
+    width: 100% !important;
+    box-shadow: 0px 0px 10px 2px #aeaeae;
+  }
+
+  /* SECTION ICONS */
+
+  .subtitle-icon-smt {
+    font-family: "RobotoBold";
+    color: #0c1f33;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+
+  .title-icon-smt {
+    font-family: "SansationBold";
+    font-size: 1.8rem;
+    color: #0c1f33;
+  }
+
+  .col-icons {
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 18px 2px #00000047;
+    border-radius: 5px;
+    padding: 10px 5px;
+    transition: all 0.5s;
+  }
+  .col-icons:hover {
+    background-color: #ebebeb;
+    box-shadow: 0px 0px 18px 2px #264fc23b;
+    border-radius: 5px;
+    padding: 35px 20px;
+    transition: all 0.5s;
+    /* width: 40%; */
+  }
+
+  .img-icon {
+    background: #264fc2;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40px;
+  }
+
+  .text-icons {
+    font-family: "SansationBold";
+    color: #0c1f33;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  /* FOOTER */
+
+  .bannerdown-img {
+    margin-top: 15%;
+    margin-bottom: -40%;
+  }
+
+  .cont-icon-transport {
+    position: absolute;
+    right: 0px;
+    bottom: 1.5rem;
+    left: -60%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .icon-transport {
+    width: 25px;
+    margin-right: 0px;
+  }
+
+  .icon-transport-menu {
+    width: 25px;
+    margin-right: 0px;
+  }
+
+  .ant-foot {
+    height: 180px;
+    background-color: #0c1f33;
+  }
+
+  footer {
+    background-color: #0c1f33;
+  }
+
+  .item-social-foot {
+    font-size: 16px;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: #0c1f33 !important;
+    margin-right: 10px;
+  }
+
+  .link-foot {
+    font-family: "RobotoMedium";
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+  }
+  .link-foot:hover {
+    font-family: "RobotoMedium";
+    text-decoration: none;
+    color: #5bc9a4;
+    transition: all 0.5s;
+  }
+
+  .foot-copy {
+    background-color: #05101b;
+    padding: 15px 10px;
+  }
+
+  .copy-text {
+    font-family: "RobotoMedium";
+    color: white;
+    font-size: 14px;
+  }
+
+  /* *************** MENU HAMBURGUESA DESPLEGABLE **********************/
+
+  .aside-smt {
+    background-color: white;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 0px;
+    transition: 0.5s;
+  }
+
+  .aside-smt:hover {
+    overflow-y: auto;
+  }
+
+  .desplegar {
+    /* display: block; */
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 0px;
+    transition: 0.5s;
+  }
+
+  .martop {
+    margin-top: 20px !important;
+  }
+
+  .aside-smt::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .aside-smt::-webkit-scrollbar-thumb {
+    background-color: #909090;
+    border-radius: 5px;
+  }
+
+  .container-burguer-smt {
+    padding: 5% 10%;
+  }
+
+  .xburguer {
+    color: #05101b;
+    font-size: 18px;
+  }
+  .xburguer:hover {
+    color: #0f2a45;
+    font-size: 18px;
+  }
+
+  .link-menu-bur {
+    font-family: "RobotoMedium";
+    color: #051436;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+  .link-menu-bur:hover {
+    font-family: "RobotoMedium";
+    color: #102a66;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .line-linkmb {
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+  .desenfocarsmt {
+    overflow-y: hidden;
+  }
+
+  .btn-login {
+    background-color: #051436;
+    font-size: 14px;
+    color: white;
+  }
+  .btn-login:hover {
+    background-color: #051436;
+    font-size: 14px;
+    color: white;
+  }
+
+  /* *************** MENU HAMBURGUESA DESPLEGABLE **********************/
+
+  /********************* CARRUSEL SMART *****************************/
+
+  .subtitle-carousel-smt {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+    font-size: 14px;
+  }
+
+  .title-carousel-smt {
+    font-family: "SansationBold";
+    font-size: 2rem;
+    color: #0c1f33;
+  }
+
+  #slider-smt {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .slide-smt {
+    width: 100%;
+
+    display: none;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+  .img-smt {
+    width: 100%;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .controls-smt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .controls-smt:hover {
+    background: white;
+    transition: 0.3s;
+  }
+
+  .controls-smt:active-smt {
+    color: grey;
+  }
+
+  #left-arrow {
+    left: 10px;
+  }
+
+  #right-arrow {
+    right: 10px;
+  }
+
+  #dots-con {
+    text-align: center;
+  }
+
+  .dot {
+    display: inline-block;
+    background: grey;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 10px 5px;
+  }
+
+  .active-smt {
+    background: #1b3d9a;
+  }
+
+  @media (max-width: 576px) {
+    #slider-smt {
+      width: 100%;
+    }
+
+    .controls-smt {
+      font-size: 1em;
+    }
+
+    #dots-con {
+      display: none;
+    }
+  }
+
+  .orde-smt {
+    position: absolute;
+    height: 100%;
+    width: 27%;
+    top: 0%;
+    left: 12%;
+    z-index: 12;
+  }
+
+  .phonecar-smt {
+    position: absolute;
+    height: 100%;
+    width: 27%;
+    top: 0%;
+    left: 12%;
+    z-index: 11;
+  }
+
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+  }
+
+  /* SECTION FORM  */
+
+  .sectionform {
+    background-color: #0c1f33;
+  }
+
+  .subtitle-form-smt {
+    font-family: "RobotoBold";
+    color: #5bc9a4;
+    font-size: 14px;
+  }
+
+  .title-form-smt {
+    font-family: "SansationBold";
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+
+  .control-form-smt {
+    border-radius: 20px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+  .btn-form {
+    background: #5bc9a4;
+    color: #0c1f33;
+    padding: 5px 10px;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 20px;
+  }
+
+  .textoinicial {
+    text-align: start !important;
+  }
+
+  .textocentral {
+    text-align: center !important;
+  }
+
+  /***************************** FINAL DE SECION HOME ***********************************/
+
+  .bg-nav-smtserv {
+    background-image: radial-gradient(circle, #1840b0, #123177);
+  }
+
+  .section-hserv {
+    background-image: linear-gradient(2deg, #cfcfcf, #f1f1f1, white);
+  }
+  .subtitle-smt-serv {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .title-smt-serv {
+    text-align: center;
+    font-family: "SansationBold";
+    font-size: 2.5rem;
+    color: #0c1f33;
+  }
+
+  .title-serv-serv {
+    font-family: "SansationBold";
+    font-size: 2.5rem;
+    color: #0c1f33;
+  }
+
+  .img-itemser {
+    border-radius: 40px;
+  }
+
+  .content-serv {
+    background-color: white;
+    box-shadow: 0px 0px 10px 7px #00000024;
+    border-radius: 58px;
+  }
+
+  .title-itemser {
+    font-family: "SansationBold";
+    font-size: 2rem;
+    color: #0c1f33;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .text-itemser {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+    font-size: 13px;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
+  .title-sg-smtserv {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+    font-size: 14px;
+  }
+
+  .titlesg-smtserv {
+    font-family: "SansationBold";
+    font-size: 1rem;
+    color: white;
+  }
+
+  .section-bottom-serv {
+    background-color: #051436;
+  }
+
+  .cont-bottom-serv {
+    background-image: linear-gradient(#1a43b3, #123178, #051436);
+    height: 670px;
+    border-radius: 30px;
+  }
+
+  .hand-phone {
+    position: absolute;
+    width: 100%;
+    margin-top: -80%;
+    margin-left: -5%;
+  }
+
+  .title-partner {
+    font-family: "SansationBold";
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+  }
+
+  .text-partner {
+    font-family: "RobotoMedium";
+    color: white;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  /* FLOTA DE HIERRO */
+
+  .titulo-flota-cont {
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+
+  .text-smt-fh {
+    font-family: "Robotolight";
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 14px;
+  }
+
+  .title-smt-fh {
+    font-family: "SansationBold";
+    font-size: 2rem;
+    color: white;
+  }
+
+  .flota {
+    background-color: #051436;
+  }
+
+  .titlec-flota-smt {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2rem;
+    font-family: "SansationRegular";
+  }
+
+  .carac-flota-smt {
+    border-bottom: 1px solid #ffffff0f;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 14px;
+    font-family: "RobotoMedium";
+  }
+
+  .info-flota-item {
+    background-image: linear-gradient(
+      #051436,
+      #081942,
+      #0f2a6a,
+      #0f2c79,
+      #133388
+    );
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+
+  .sectionform-ser {
+    background-image: linear-gradient(2deg, #0c1f33, #11253b, #051436, #051436);
+  }
+
+  /* COUNTER */
+
+  .cont-counter {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .title-counter {
+    font-family: "SansationBold";
+    font-size: 2rem;
+    color: #122d49;
+  }
+
+  .row-icon-count {
+    margin-top: 10%;
+  }
+
+  .icon-counter {
+    width: 40px;
+  }
+
+  .number-counter {
+    font-family: "RobotoBold";
+    font-size: 1.5rem;
+  }
+  .name-counter {
+    font-family: "RobotoMedium";
+    font-size: 18px;
+    color: #0e243acf;
+    margin-top: -5%;
+  }
+
+  /* BLOG */
+
+  .title-blog {
+    font-family: "RobotoBold";
+    font-size: 1.5rem;
+    color: #081b2e;
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+
+  .title-entry-blog {
+    font-family: "RobotoBold";
+    font-size: 1.2rem;
+    color: #081b2e;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  .text-entry-blog {
+    font-family: "RobotoMedium";
+    color: #05101b;
+    font-size: 18px;
+  }
+
+  /************************* LOGIN AND REGISTRO **********************************/
+
+  .login {
+    background-image: url(../img/login.png);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+    padding-top: 10% !important;
+  }
+
+  .content-login {
+    background-color: #d2d1d1;
+    border-radius: 20px;
+    padding: 20px 20px;
+    box-shadow: 0px 0px 10px 0px #535353;
+    font-family: "SansationBold";
+  }
+
+  .btn-entrarlg {
+    background-color: #5bc9a4;
+    color: #0d223c;
+    width: 100%;
+    font-size: 16px;
+    transition: all 1s;
+  }
+
+  .btn-entrarlg:hover {
+    background-color: #41a986;
+    color: #0d223c;
+    width: 100%;
+    font-size: 16px;
+    transition: all 1s;
+  }
+
+  .btn-registrar-lg {
+    background-color: #b6b6b6;
+    color: #0d223c;
+    width: 100%;
+    font-size: 14px;
+    transition: all 1s;
+  }
+
+  .btn-registrar-lg:hover {
+    background-color: #b6b6b6;
+    color: #0d223c;
+    width: 100%;
+    font-size: 14px;
+    transition: all 1s;
+  }
+
+  .link-trucks-login {
+    font-size: 12px;
+    color: #183682;
+  }
+
+  .ceditos-login {
+    font-size: 14px;
+  }
+
+  /************************* FIN DE LOGIN AND REGISTRO ***************************/
+}
+
+/* END */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* STYLES NAVBAR AND BANNER */
+
+  .bg-nav-smt {
+    background-image: radial-gradient(circle, #1f4ac7, #1f4ac7);
+    height: 600px;
+  }
+
+  .video-desktop {
+    width: 100%;
+    margin-top: -18px;
+  }
+
+  .logo-nav-smt {
+    width: 250px;
+  }
+
+  .item-available {
+    text-shadow: 0px 0px 2px white;
+    color: white;
+  }
+  .item-available:hover {
+    text-shadow: 0px 0px 2px white;
+    color: white;
+  }
+
+  .btn-down-smt {
+    font-family: "DsignesBold";
+    padding: 14px 20px;
+    font-size: 14px;
+    background-color: #5bc9a4 !important;
+    color: #262626;
+    box-shadow: 0px 0px 4px 0px white;
+    transition: all 0.5s;
+  }
+  .btn-down-smt:hover {
+    font-family: "DsignesBold";
+    padding: 14px 20px;
+    font-size: 14px;
+    background-color: #49d4a6 !important;
+    color: #424242;
+    box-shadow: 0px 0px 4px 0px white;
+    transition: all 0.5s;
+  }
+
+  .bar-smt {
+    color: white;
+    font-size: 25px;
+  }
+
+  .subtitle-smt {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+    letter-spacing: 1px;
+  }
+
+  .title-smt {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .content-phones-smt {
+    margin-top: -20%;
+  }
+
+  /* SECTION GRADIENT */
+  .section-gradient-smt {
+    margin-top: 5%;
+    background-image: url("../img/background-green.svg");
+    background-color: #cccccc;
+    /* height: 700px; */
+    padding: 100px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title-sg-smt {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+    letter-spacing: 1px;
+  }
+
+  .btn-down2-smt {
+    font-family: "DsignesBold";
+    padding: 12px 20px;
+    font-size: 14px;
+    background-color: #0c1f33 !important;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #0c1f33;
+    transition: all 0.5s;
+  }
+  .btn-down2-smt:hover {
+    font-family: "DsignesBold";
+    padding: 12px 20px;
+    font-size: 14px;
+    background-color: #122d49 !important;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #0c1f33;
+    transition: all 0.5s;
+  }
+
+  /* SECTION TRUCLOGIC */
+  .section-trucs-smt {
+    margin-top: -5px;
+    background-color: #0c1f33;
+    height: 800px;
+  }
+
+  .title-clients-smt {
+    font-family: "SansationBold";
+    margin-top: 15%;
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .col-client-smt {
+    border-radius: 35px;
+    background-color: #49d4a6;
+    padding: 5%;
+    height: 450px;
+  }
+  .title-col-smt {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+  }
+  .card-img-tops {
+    width: 60px;
+  }
+  .text-reviewclient {
+    border-right: 1px solid #0c1f33;
+  }
+  .card-client-smt {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 11px 4px #00000030;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  .stars-review {
+    color: #c4a817;
+  }
+
+  .sms-client {
+    margin-top: -10%;
+  }
+
+  .clients-top {
+    margin-top: -15%;
+  }
+
+  /* NOTICIAS ULTIMAS */
+
+  .title-not-smt {
+    font-family: "SansationBold";
+    margin-top: 15%;
+    font-size: 3.5rem;
+  }
+
+  .date-note {
+    color: #b4b4b4e0;
+  }
+
+  .title-inot {
+    font-family: "RobotoBold";
+    color: #0c1f33;
+  }
+
+  .card-not {
+    box-shadow: 0px 0px 10px 2px #aeaeae;
+  }
+
+  /* SECTION ICONS */
+
+  .subtitle-icon-smt {
+    font-family: "RobotoBold";
+    color: #0c1f33;
+    letter-spacing: 1px;
+  }
+
+  .title-icon-smt {
+    font-family: "SansationBold";
+    font-size: 3.58rem;
+    color: #0c1f33;
+  }
+
+  .col-icons {
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 18px 2px #00000047;
+    border-radius: 5px;
+    padding: 35px 20px;
+    transition: all 0.5s;
+    /* width: 40%; */
+  }
+  .col-icons:hover {
+    background-color: #ebebeb;
+    box-shadow: 0px 0px 18px 2px #264fc23b;
+    border-radius: 5px;
+    padding: 35px 20px;
+    transition: all 0.5s;
+    /* width: 40%; */
+  }
+
+  .img-icon {
+    background: #264fc2;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+  }
+
+  .text-icons {
+    font-family: "SansationBold";
+    color: #0c1f33;
+    margin-top: 25px;
+  }
+
+  /* FOOTER */
+
+  .bannerdown-img {
+    margin-top: 15%;
+    margin-bottom: -25%;
+  }
+
+  .cont-icon-transport {
+    position: absolute;
+    right: 15%;
+    bottom: 6rem;
+    left: 0%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .icon-transport {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .icon-transport-menu {
+    width: 50px;
+    margin-right: 5px;
+  }
+
+  .ant-foot {
+    height: 420px;
+    background-color: #0c1f33;
+  }
+
+  footer {
+    background-color: #0c1f33;
+  }
+
+  .item-social-foot {
+    font-size: 16px;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: #0c1f33 !important;
+    margin-right: 10px;
+  }
+
+  .link-foot {
+    font-family: "RobotoMedium";
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+  }
+  .link-foot:hover {
+    font-family: "RobotoMedium";
+    text-decoration: none;
+    color: #5bc9a4;
+    transition: all 0.5s;
+  }
+
+  .foot-copy {
+    background-color: #05101b;
+    padding: 15px 10px;
+  }
+
+  .copy-text {
+    font-family: "RobotoMedium";
+    color: white;
+    font-size: 14px;
+  }
+
+  /* *************** MENU HAMBURGUESA DESPLEGABLE **********************/
+
+  .aside-smt {
+    background-color: white;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 0px;
+    transition: 0.5s;
+  }
+
+  .aside-smt:hover {
+    overflow-y: auto;
+  }
+
+  .desplegar {
+    /* display: block; */
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 0px;
+    transition: 0.5s;
+  }
+
+  .aside-smt::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .aside-smt::-webkit-scrollbar-thumb {
+    background-color: #909090;
+    border-radius: 5px;
+  }
+
+  .container-burguer-smt {
+    padding: 5% 10%;
+  }
+
+  .xburguer {
+    color: #05101b;
+    font-size: 18px;
+  }
+  .xburguer:hover {
+    color: #0f2a45;
+    font-size: 18px;
+  }
+
+  .link-menu-bur {
+    font-family: "RobotoMedium";
+    color: #051436;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+  .link-menu-bur:hover {
+    font-family: "RobotoMedium";
+    color: #102a66;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .line-linkmb {
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+  .desenfocarsmt {
+    overflow-y: hidden;
+  }
+
+  .btn-login {
+    background-color: #051436;
+    font-size: 14px;
+    color: white;
+  }
+  .btn-login:hover {
+    background-color: #051436;
+    font-size: 14px;
+    color: white;
+  }
+
+  /* *************** MENU HAMBURGUESA DESPLEGABLE **********************/
+
+  /********************* CARRUSEL SMART *****************************/
+
+  .subtitle-carousel-smt {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+  }
+
+  .title-carousel-smt {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: #0c1f33;
+  }
+
+  #slider-smt {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .slide-smt {
+    width: 100%;
+
+    display: none;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+  .img-smt {
+    width: 100%;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .controls-smt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .controls-smt:hover {
+    background: white;
+    transition: 0.3s;
+  }
+
+  .controls-smt:active-smt {
+    color: grey;
+  }
+
+  #left-arrow {
+    left: 10px;
+  }
+
+  #right-arrow {
+    right: 10px;
+  }
+
+  #dots-con {
+    text-align: center;
+  }
+
+  .dot {
+    display: inline-block;
+    background: grey;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 10px 5px;
+  }
+
+  .active-smt {
+    background: #1b3d9a;
+  }
+
+  @media (max-width: 576px) {
+    #slider-smt {
+      width: 100%;
+    }
+
+    .controls-smt {
+      font-size: 1em;
+    }
+
+    #dots-con {
+      display: none;
+    }
+  }
+
+  .orde-smt {
+    position: absolute;
+    height: 100%;
+    width: 27%;
+    top: 0%;
+    left: 12%;
+    z-index: 12;
+  }
+
+  .phonecar-smt {
+    position: absolute;
+    height: 100%;
+    width: 27%;
+    top: 0%;
+    left: 12%;
+    z-index: 11;
+  }
+
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+  }
+
+  /* SECTION FORM  */
+
+  .sectionform {
+    background-color: #0c1f33;
+  }
+
+  .subtitle-form-smt {
+    font-family: "RobotoBold";
+    color: #5bc9a4;
+    font-size: 18px;
+  }
+
+  .title-form-smt {
+    font-family: "SansationBold";
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  .control-form-smt {
+    border-radius: 20px;
+  }
+
+  .btn-form {
+    background: #5bc9a4;
+    color: #0c1f33;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  /***************************** FINAL DE SECION HOME ***********************************/
+
+  .bg-nav-smtserv {
+    background-image: radial-gradient(circle, #1840b0, #123177);
+  }
+
+  .section-hserv {
+    background-image: linear-gradient(2deg, #cfcfcf, #f1f1f1, white);
+  }
+  .subtitle-smt-serv {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+    font-size: 18px;
+  }
+
+  .title-smt-serv {
+    font-family: "SansationBold";
+    font-size: 4rem;
+    color: #0c1f33;
+  }
+
+  .title-serv-serv {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: #0c1f33;
+  }
+
+  .img-itemser {
+    border-radius: 40px;
+  }
+
+  .content-serv {
+    background-color: white;
+    box-shadow: 0px 0px 10px 7px #00000024;
+    border-radius: 58px;
+  }
+
+  .title-itemser {
+    font-family: "SansationBold";
+    font-size: 2.5rem;
+    color: #0c1f33;
+  }
+  .text-itemser {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+    font-size: 18px;
+  }
+
+  .title-sg-smtserv {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+  }
+
+  .titlesg-smtserv {
+    font-family: "SansationBold";
+    font-size: 3rem;
+    color: white;
+  }
+
+  .section-bottom-serv {
+    background-color: #051436;
+  }
+
+  .cont-bottom-serv {
+    background-image: linear-gradient(#1a43b3, #123178, #051436);
+    height: 670px;
+    border-radius: 30px;
+  }
+
+  .hand-phone {
+    position: absolute;
+    width: 55%;
+    margin-top: -50%;
+    margin-left: -2%;
+  }
+
+  .title-partner {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .text-partner {
+    font-family: "RobotoMedium";
+    color: white;
+    font-size: 18px;
+  }
+
+  /* FLOTA DE HIERRO */
+
+  .titulo-flota-cont {
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+
+  .text-smt-fh {
+    font-family: "Robotolight";
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .title-smt-fh {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .flota {
+    background-color: #051436;
+  }
+  .titlec-flota-smt {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 3rem;
+    font-family: "SansationRegular";
+  }
+
+  .carac-flota-smt {
+    border-bottom: 1px solid #ffffff0f;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: "RobotoMedium";
+  }
+
+  .info-flota-item {
+    background-image: linear-gradient(
+      #051436,
+      #081942,
+      #0f2a6a,
+      #0f2c79,
+      #133388
+    );
+    padding-top: 5%;
+    padding-bottom: 20%;
+  }
+
+  .sectionform-ser {
+    background-image: linear-gradient(2deg, #0c1f33, #11253b, #051436, #051436);
+  }
+
+  /* COUNTER */
+
+  .cont-counter {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .title-counter {
+    font-family: "SansationBold";
+    font-size: 3rem;
+    color: #122d49;
+  }
+
+  .row-icon-count {
+    margin-top: 5%;
+  }
+
+  .icon-counter {
+    width: 70px;
+  }
+
+  .number-counter {
+    font-family: "RobotoBold";
+    font-size: 2rem;
+  }
+  .name-counter {
+    font-family: "RobotoMedium";
+    font-size: 18px;
+    color: #0e243acf;
+  }
+
+  /* BLOG */
+
+  .title-blog {
+    font-family: "RobotoBold";
+    font-size: 4.5rem;
+    color: #081b2e;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .title-entry-blog {
+    font-family: "RobotoBold";
+    font-size: 2rem;
+    color: #081b2e;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  .text-entry-blog {
+    font-family: "RobotoMedium";
+    color: #05101b;
+    font-size: 18px;
+  }
+
+  /************************* LOGIN AND REGISTRO **********************************/
+
+  .login {
+    background-image: url(../img/login.png);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+  }
+
+  .content-login {
+    background-color: #d2d1d1;
+    border-radius: 20px;
+    padding: 20px 5px;
+    box-shadow: 0px 0px 10px 0px #535353;
+    font-family: "SansationBold";
+  }
+
+  .btn-entrarlg {
+    background-color: #5bc9a4;
+    color: #0d223c;
+    width: 100%;
+    font-size: 16px;
+    transition: all 1s;
+  }
+
+  .btn-entrarlg:hover {
+    background-color: #41a986;
+    color: #0d223c;
+    width: 100%;
+    font-size: 16px;
+    transition: all 1s;
+  }
+
+  .btn-registrar-lg {
+    background-color: #b6b6b6;
+    color: #0d223c;
+    width: 100%;
+    font-size: 14px;
+    transition: all 1s;
+  }
+
+  .btn-registrar-lg:hover {
+    background-color: #b6b6b6;
+    color: #0d223c;
+    width: 100%;
+    font-size: 14px;
+    transition: all 1s;
+  }
+
+  .link-trucks-login {
+    font-size: 12px;
+    color: #183682;
+  }
+
+  .ceditos-login {
+    font-size: 14px;
+  }
+
+  /************************* FIN DE LOGIN AND REGISTRO ***************************/
+}
+/* END */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* STYLES NAVBAR AND BANNER */
+
+  .bg-nav-smt {
+    background-image: radial-gradient(circle, #1f4ac7, #1f4ac7);
+    height: 600px;
+  }
+
+  .desenfocar {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .logo-nav-smt {
+    width: 250px;
+  }
+
+  .item-available {
+    text-shadow: 0px 0px 2px white;
+    color: white;
+  }
+
+  .item-available:hover {
+    text-shadow: 0px 0px 2px white;
+    color: white;
+  }
+
+  .btn-down-smt {
+    font-family: "DsignesBold";
+    padding: 14px 20px;
+    font-size: 14px;
+    background-color: #5bc9a4 !important;
+    color: #262626;
+    box-shadow: 0px 0px 4px 0px white;
+    transition: all 0.5s;
+  }
+  .btn-down-smt:hover {
+    font-family: "DsignesBold";
+    padding: 14px 20px;
+    font-size: 14px;
+    background-color: #49d4a6 !important;
+    color: #424242;
+    box-shadow: 0px 0px 4px 0px white;
+    transition: all 0.5s;
+  }
+
+  .bar-smt {
+    color: white;
+    font-size: 25px;
+  }
+
+  .subtitle-smt {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+    letter-spacing: 1px;
+  }
+
+  .title-smt {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .content-phones-smt {
+    margin-top: -14%;
+  }
+
+  /* SECTION GRADIENT */
+  .section-gradient-smt {
+    margin-top: 5%;
+    background-image: url("../img/background-green.svg");
+    background-color: #cccccc;
+    height: 700px;
+    padding: 100px 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .title-sg-smt {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+    letter-spacing: 1px;
+  }
+
+  .btn-down2-smt {
+    font-family: "DsignesBold";
+    padding: 12px 20px;
+    font-size: 14px;
+    background-color: #0c1f33 !important;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #0c1f33;
+    transition: all 0.5s;
+  }
+  .btn-down2-smt:hover {
+    font-family: "DsignesBold";
+    padding: 12px 20px;
+    font-size: 14px;
+    background-color: #122d49 !important;
+    color: #ffffff;
+    box-shadow: 0px 0px 4px 0px #0c1f33;
+    transition: all 0.5s;
+  }
+
+  /* SECTION TRUCLOGIC */
+  .section-trucs-smt {
+    margin-top: -5px;
+    background-color: #0c1f33;
+    height: 800px;
+  }
+
+  .title-clients-smt {
+    font-family: "SansationBold";
+    margin-top: 15%;
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .col-client-smt {
+    border-radius: 35px;
+    background-color: #49d4a6;
+    padding: 5%;
+    height: 450px;
+  }
+  .title-col-smt {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+  }
+  .card-img-tops {
+    width: 60px;
+  }
+  .text-reviewclient {
+    border-right: 1px solid #0c1f33;
+  }
+  .card-client-smt {
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 11px 4px #00000030;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  .stars-review {
+    color: #c4a817;
+  }
+
+  .sms-client {
+    margin-top: -10%;
+  }
+
+  .clients-top {
+    margin-top: -15%;
+  }
+
+  /* NOTICIAS ULTIMAS */
+
+  .title-not-smt {
+    font-family: "SansationBold";
+    margin-top: 15%;
+    font-size: 3.5rem;
+  }
+
+  .date-note {
+    color: #b4b4b4e0;
+  }
+
+  .title-inot {
+    font-family: "RobotoBold";
+    color: #0c1f33;
+  }
+
+  .card-not {
+    box-shadow: 0px 0px 10px 2px #aeaeae;
+  }
+
+  /* SECTION ICONS */
+
+  .subtitle-icon-smt {
+    font-family: "RobotoBold";
+    color: #0c1f33;
+    letter-spacing: 1px;
+  }
+
+  .title-icon-smt {
+    font-family: "SansationBold";
+    font-size: 3.58rem;
+    color: #0c1f33;
+  }
+
+  .col-icons {
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 18px 2px #00000047;
+    border-radius: 5px;
+    padding: 35px 20px;
+    transition: all 0.5s;
+    /* width: 40%; */
+  }
+  .col-icons:hover {
+    background-color: #ebebeb;
+    box-shadow: 0px 0px 18px 2px #264fc23b;
+    border-radius: 5px;
+    padding: 35px 20px;
+    transition: all 0.5s;
+    /* width: 40%; */
+  }
+
+  .img-icon {
+    background: #264fc2;
+    padding: 10px;
+    border-radius: 5px;
+    width: 60px;
+  }
+
+  .text-icons {
+    font-family: "SansationBold";
+    color: #0c1f33;
+    margin-top: 25px;
+  }
+
+  /* FOOTER */
+
+  .bannerdown-img {
+    margin-top: 15%;
+    margin-bottom: -25%;
+  }
+
+  .cont-icon-transport {
+    position: absolute;
+    right: 15%;
+    bottom: 6rem;
+    left: 0%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  .icon-transport {
+    width: 80px;
+    margin-right: 10px;
+  }
+
+  .icon-transport-menu {
+    width: 50px;
+    margin-right: 5px;
+  }
+
+  .ant-foot {
+    height: 420px;
+    background-color: #0c1f33;
+  }
+
+  footer {
+    background-color: #0c1f33;
+  }
+
+  .item-social-foot {
+    font-size: 16px;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: #0c1f33 !important;
+    margin-right: 10px;
+  }
+
+  .link-foot {
+    font-family: "RobotoMedium";
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s;
+  }
+  .link-foot:hover {
+    font-family: "RobotoMedium";
+    text-decoration: none;
+    color: #5bc9a4;
+    transition: all 0.5s;
+  }
+
+  .foot-copy {
+    background-color: #05101b;
+    padding: 15px 10px;
+  }
+
+  .copy-text {
+    font-family: "RobotoMedium";
+    color: white;
+    font-size: 14px;
+  }
+
+  /* *************** MENU HAMBURGUESA DESPLEGABLE **********************/
+
+  .aside-smt {
+    background-color: white;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 0px;
+    transition: 0.5s;
+  }
+
+  .aside-smt:hover {
+    overflow-y: auto;
+  }
+
+  .desplegar {
+    /* display: block; */
+    background-color: white;
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    margin-top: 0px;
+    transition: 0.5s;
+  }
+
+  .aside-smt::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .aside-smt::-webkit-scrollbar-thumb {
+    background-color: #909090;
+    border-radius: 5px;
+  }
+
+  .container-burguer-smt {
+    padding: 5% 10%;
+  }
+
+  .xburguer {
+    color: #05101b;
+    font-size: 18px;
+  }
+  .xburguer:hover {
+    color: #0f2a45;
+    font-size: 18px;
+  }
+
+  .link-menu-bur {
+    font-family: "RobotoMedium";
+    color: #051436;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .link-menu-bur:hover {
+    font-family: "RobotoMedium";
+    color: #102a66;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.5s;
+  }
+
+  .line-linkmb {
+    height: 1px;
+    background-color: #e6e6e6;
+  }
+  .desenfocarsmt {
+    overflow-y: hidden;
+  }
+
+  .btn-login {
+    background-color: #051436;
+    font-size: 14px;
+    color: white;
+  }
+  .btn-login:hover {
+    background-color: #051436;
+    font-size: 14px;
+    color: white;
+  }
+
+  /* *************** MENU HAMBURGUESA DESPLEGABLE **********************/
+
+  /********************* CARRUSEL SMART *****************************/
+
+  .subtitle-carousel-smt {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+  }
+
+  .title-carousel-smt {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: #0c1f33;
+  }
+
+  #slider-smt {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  }
+
+  .slide-smt {
+    width: 100%;
+
+    display: none;
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+
+  .img-smt {
+    width: 100%;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.5;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .controls-smt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    padding: 15px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .controls-smt:hover {
+    background: white;
+    transition: 0.3s;
+  }
+
+  .controls-smt:active-smt {
+    color: grey;
+  }
+
+  #left-arrow {
+    left: 10px;
+  }
+
+  #right-arrow {
+    right: 10px;
+  }
+
+  #dots-con {
+    text-align: center;
+  }
+
+  .dot {
+    display: inline-block;
+    background: grey;
+    padding: 8px;
+    border-radius: 50%;
+    margin: 10px 5px;
+  }
+
+  .active-smt {
+    background: #1b3d9a;
+  }
+
+  @media (max-width: 576px) {
+    #slider-smt {
+      width: 100%;
+    }
+
+    .controls-smt {
+      font-size: 1em;
+    }
+
+    #dots-con {
+      display: none;
+    }
+  }
+
+  .orde-smt {
+    position: absolute;
+    height: 100%;
+    width: 27%;
+    top: 0%;
+    left: 12%;
+    z-index: 12;
+  }
+
+  .phonecar-smt {
+    position: absolute;
+    height: 100%;
+    width: 27%;
+    top: 0%;
+    left: 12%;
+    z-index: 11;
+  }
+
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 4s;
+  }
+
+  /* SECTION FORM  */
+
+  .sectionform {
+    background-color: #0c1f33;
+  }
+
+  .subtitle-form-smt {
+    font-family: "RobotoBold";
+    color: #5bc9a4;
+    font-size: 18px;
+  }
+
+  .title-form-smt {
+    font-family: "SansationBold";
+    font-size: 2rem;
+    color: #ffffff;
+  }
+
+  .control-form-smt {
+    border-radius: 20px;
+  }
+
+  .btn-form {
+    background: #5bc9a4;
+    color: #0c1f33;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 20px;
+  }
+
+  /***************************** FINAL DE SECION HOME ***********************************/
+
+  .bg-nav-smtserv {
+    background-image: radial-gradient(circle, #1840b0, #123177);
+  }
+
+  .section-hserv {
+    background-image: linear-gradient(2deg, #cfcfcf, #f1f1f1, white);
+  }
+  .subtitle-smt-serv {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+    font-size: 18px;
+  }
+
+  .title-smt-serv {
+    font-family: "SansationBold";
+    font-size: 4rem;
+    color: #0c1f33;
+  }
+
+  .title-serv-serv {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: #0c1f33;
+  }
+
+  .img-itemser {
+    border-radius: 40px;
+  }
+
+  .content-serv {
+    background-color: white;
+    box-shadow: 0px 0px 10px 7px #00000024;
+    border-radius: 58px;
+  }
+
+  .title-itemser {
+    font-family: "SansationBold";
+    font-size: 2.5rem;
+    color: #0c1f33;
+  }
+  .text-itemser {
+    font-family: "RobotoMedium";
+    color: #0c1f33;
+    font-size: 18px;
+  }
+
+  .title-sg-smtserv {
+    font-family: "RobotoMedium";
+    color: #5bc9a4;
+  }
+
+  .titlesg-smtserv {
+    font-family: "SansationBold";
+    font-size: 3rem;
+    color: white;
+  }
+
+  .section-bottom-serv {
+    background-color: #051436;
+  }
+
+  .cont-bottom-serv {
+    background-image: linear-gradient(#1a43b3, #123178, #051436);
+    height: 670px;
+    border-radius: 30px;
+  }
+
+  .hand-phone {
+    position: absolute;
+    width: 55%;
+    margin-top: -50%;
+    margin-left: -2%;
+  }
+
+  .title-partner {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .text-partner {
+    font-family: "RobotoMedium";
+    color: white;
+    font-size: 18px;
+  }
+
+  /* FLOTA DE HIERRO */
+
+  .titulo-flota-cont {
+    margin-top: 5%;
+    margin-bottom: -5%;
+  }
+
+  .text-smt-fh {
+    font-family: "Robotolight";
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .title-smt-fh {
+    font-family: "SansationBold";
+    font-size: 3.5rem;
+    color: white;
+  }
+
+  .flota {
+    background-color: #051436;
+  }
+  .titlec-flota-smt {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 3rem;
+    font-family: "SansationRegular";
+  }
+
+  .carac-flota-smt {
+    border-bottom: 1px solid #ffffff0f;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+    font-family: "RobotoMedium";
+  }
+
+  .info-flota-item {
+    background-image: linear-gradient(
+      #051436,
+      #081942,
+      #0f2a6a,
+      #0f2c79,
+      #133388
+    );
+    padding-top: 5%;
+    padding-bottom: 20%;
+  }
+
+  .sectionform-ser {
+    background-image: linear-gradient(2deg, #0c1f33, #11253b, #051436, #051436);
+  }
+
+  /* COUNTER */
+
+  .cont-counter {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+
+  .title-counter {
+    font-family: "SansationBold";
+    font-size: 3rem;
+    color: #122d49;
+  }
+
+  .row-icon-count {
+    margin-top: 5%;
+  }
+
+  .icon-counter {
+    width: 70px;
+  }
+
+  .number-counter {
+    font-family: "RobotoBold";
+    font-size: 2rem;
+  }
+  .name-counter {
+    font-family: "RobotoMedium";
+    font-size: 18px;
+    color: #0e243acf;
+  }
+
+  /* BLOG */
+
+  .title-blog {
+    font-family: "RobotoBold";
+    font-size: 4.5rem;
+    color: #081b2e;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .title-entry-blog {
+    font-family: "RobotoBold";
+    font-size: 2rem;
+    color: #081b2e;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  .text-entry-blog {
+    font-family: "RobotoMedium";
+    color: #05101b;
+    font-size: 18px;
+  }
+
+  /************************* LOGIN AND REGISTRO **********************************/
+
+  .login {
+    background-image: url(../img/login.png);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+  }
+
+  .content-login {
+    background-color: #d2d1d1;
+    border-radius: 20px;
+    padding: 20px 5px;
+    box-shadow: 0px 0px 10px 0px #535353;
+    font-family: "SansationBold";
+  }
+
+  .btn-entrarlg {
+    background-color: #5bc9a4;
+    color: #0d223c;
+    width: 100%;
+    font-size: 16px;
+    transition: all 1s;
+  }
+
+  .btn-entrarlg:hover {
+    background-color: #41a986;
+    color: #0d223c;
+    width: 100%;
+    font-size: 16px;
+    transition: all 1s;
+  }
+
+  .btn-registrar-lg {
+    background-color: #b6b6b6;
+    color: #0d223c;
+    width: 100%;
+    font-size: 14px;
+    transition: all 1s;
+  }
+
+  .btn-registrar-lg:hover {
+    background-color: #b6b6b6;
+    color: #0d223c;
+    width: 100%;
+    font-size: 14px;
+    transition: all 1s;
+  }
+
+  .link-trucks-login {
+    font-size: 12px;
+    color: #183682;
+  }
+
+  .ceditos-login {
+    font-size: 14px;
+  }
+
+  /************************* FIN DE LOGIN AND REGISTRO ***************************/
+
+  /* END */
+}
+/* END */

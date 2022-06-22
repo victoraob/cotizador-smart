@@ -1,0 +1,10 @@
+// CONFIGURACIÓN PARA EL COTIZADOR 
+
+1) REEMPLAZAR EL VALOR DE LA VARIABLE "define('URL', 'http://DOMINIO.COM');" UBICADA 
+EN "/CONFIG/CONFIG.PHP" POR LA RUTA DE SU SERVIDOR 
+
+
+2) En la carpeta controllers estan las funciones que llaman a las vistas dentro de la carpeta views/ 
+
+
+3) en la carpeta view estan las vistas del cotizador 
